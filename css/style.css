@@ -16,3 +16,11 @@ body {
     padding: 10px 30px;
     font-size: 1rem;
 }
+
+a{
+    text-decoration: none;
+    font-size: .5em;
+    padding: 10px 30px;
+    color: black;
+    border: 1px solid black;
+}
