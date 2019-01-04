@@ -12,10 +12,16 @@
 //   });
 // });
 
+// $(function(){
+// $("span").click(function() {
+//   $("img").fadeToggle(800, function(){ // also taking callback function.
+//     $(".sample").css("text-align","center");
+//   });
+// });
+// });
+
 $(function(){
-$("span").click(function() {
-  $("img").toggle(1000, function(){
-    $(".sample").css("text-align","center");
-  });
-});
-});
+  $('h1').click(function(){
+    $('.sample').slideToggle(1000);
+  })
+})
