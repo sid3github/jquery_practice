@@ -10,7 +10,7 @@ body {
 
 }
 
-.center button {
+/* .center button {
     background: transparent;
     border: 1px solid black;
     padding: 10px 30px;
@@ -23,4 +23,8 @@ a {
     padding: 10px 30px;
     color: black;
     border: 1px solid black;
+} */
+
+span {
+    color: aliceblue;
 }
