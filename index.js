@@ -27,7 +27,6 @@
 //   })
 // })
 
-
 //jquery animation
 // $(function(){
 //     $('h1').click(function(){
@@ -37,7 +36,6 @@
 //       }, 1000);
 //     });
 //   });
-
 
 //callbacks
 
@@ -49,11 +47,40 @@
 //   })
 // })
 
-
 // chaining
 
-$(document).ready(function(){
-  $('h1').click(function(){
-    $('.sample').slideToggle(1000, );
-  })
-})
+// $(document).ready(function(){
+//   $('h1').click(function(){
+//     $('.sample').css('background','pink') // function chaining happening
+//     .slideUp(2000)
+//     .slideDown(2000);
+//   });
+// });
+
+// jquery project
+
+$(function(){
+  $('.btn1').click(function(){
+    alert('text is: ' + $('h1').text());
+  });
+});
+
+$(function(){
+  $('.btn2').click(function(){
+    alert('html is ' + $('h1').html());
+  });
+});
+
+$(function(){
+  $('.btn3').click(function(){
+    alert('value is: ' + $('input').val());
+  });
+});
+
+$(function(){
+  $('.btn4').click(function(){
+    alert('attr is ' + $('a').attr('href'));
+  });
+});
+
+
