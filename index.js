@@ -20,8 +20,40 @@
 // });
 // });
 
-$(function(){
+// jquery slider
+// $(function(){
+//   $('h1').click(function(){
+//     $('.sample').slideToggle(1000);
+//   })
+// })
+
+
+//jquery animation
+// $(function(){
+//     $('h1').click(function(){
+//       $('.sample').animate({
+//         height: '+=300px',// relatively adding the height.
+//         width: '500px'
+//       }, 1000);
+//     });
+//   });
+
+
+//callbacks
+
+// $(document).ready(function(){
+//   $('h1').click(function(){
+//     $('.sample').slideToggle(1000, function(){
+//       alert('animation complete!');
+//     });
+//   })
+// })
+
+
+// chaining
+
+$(document).ready(function(){
   $('h1').click(function(){
-    $('.sample').slideToggle(1000);
+    $('.sample').slideToggle(1000, );
   })
 })
