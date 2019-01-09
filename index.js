@@ -59,28 +59,70 @@
 
 // jquery project
 
+//getting the form values
+// $(function(){
+//   $('.btn1').click(function(){
+//     alert('text is: ' + $('h1').text());
+//   });
+// });
+
+// $(function(){
+//   $('.btn2').click(function(){
+//     alert('html is ' + $('h1').html());
+//   });
+// });
+
+// $(function(){
+//   $('.btn3').click(function(){
+//     alert('value is: ' + $('input').val());
+//   });
+// });
+
+// $(function(){
+//   $('.btn4').click(function(){
+//     alert('attr is ' + $('a').attr('href'));
+//   });
+// });
+
+
+//setting the form values
+// $(function(){
+//   $('.btn1').click(function(){
+//   $('h1').text('I  am learning Jquery!');
+//   });
+// });
+
+// $(function(){
+//   $('.btn2').click(function(){
+//   $('h1').html('<i>It is now in Italic!</i>');
+//   });
+// });
+
+// $(function(){
+//   $('.btn3').click(function(){
+//   $('input').val('Mira Road');
+//   });
+// });
+
+// $(function(){
+//   $('.btn4').click(function(){
+//   $('a').attr({
+//     "href": "http://bing.com",
+//     "title": "bing"
+//   });
+//   });
+// });
+
+
+// toggle css with jquery
 $(function(){
   $('.btn1').click(function(){
-    alert('text is: ' + $('h1').text());
+  $('div').removeClass('new');
   });
 });
 
 $(function(){
   $('.btn2').click(function(){
-    alert('html is ' + $('h1').html());
+  $('div').toggleClass('new');
   });
 });
-
-$(function(){
-  $('.btn3').click(function(){
-    alert('value is: ' + $('input').val());
-  });
-});
-
-$(function(){
-  $('.btn4').click(function(){
-    alert('attr is ' + $('a').attr('href'));
-  });
-});
-
-

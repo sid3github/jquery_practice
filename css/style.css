@@ -64,3 +64,15 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.new{
+    text-align: left;
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+
+.new h1{
+    background-color: rgba(50,50,50,0.5);
+}
